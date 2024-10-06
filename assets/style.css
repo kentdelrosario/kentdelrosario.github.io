@@ -190,9 +190,10 @@ body {
 
 .content-container .text-container p {
   font-size: 18px;
-  font-family: "Garamond", italic;
+  font-family: "EB Garamond", serif;
   line-height: 1.5;
 }
+
 
 .content-container .content-footer {
   position: absolute;
