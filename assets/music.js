@@ -1,7 +1,7 @@
 $(document).ready(function () {
     var audioElement = document.createElement('audio');
     audioElement.setAttribute('src', $('.active-song').attr('data-src'));
-    audioElement.volume = 0.05; // Set volume
+    audioElement.volume = 0.5; // Set volume
 
     var tl = new TimelineMax();
     tl.to('.player__albumImg', 3, {
